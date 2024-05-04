@@ -23,7 +23,18 @@
           "Port": 7037
         }
       ]
+    },
+    {
+      "UpstreamHttpMethod": [ "Get", "Post" ],
+      "UpstreamPathTemplate": "/ServicoPythonProducts",
+      "DownstreamPathTemplate": "/api/products",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5000
+        }
+      ]
     }
-
   ]
 }
