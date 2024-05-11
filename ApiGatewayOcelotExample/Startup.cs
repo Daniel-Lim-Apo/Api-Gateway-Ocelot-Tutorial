@@ -1,3 +1,6 @@
+using Ocelot.DependencyInjection;
+using Ocelot.Middleware;
+
 public class Startup
 {
     public void ConfigureServices(IServiceCollection services)
